@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Hello from './today/Hello';
+import Goodbye from './today/Goodbye';
 
 function App() {
   var logo = "2.gif"
@@ -10,6 +12,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <Hello />
         <p>
           {text}<br /><span className='num'>{number}</span>
         </p>
@@ -21,6 +24,7 @@ function App() {
         >
           google
         </a>
+        <Goodbye />
       </header>
     </div>
   );
