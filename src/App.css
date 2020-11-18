@@ -5,16 +5,18 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  background-color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    background-color: white;
+    /* animation: App-logo-spin infinite 20s linear; */
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +37,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+span.num {
+  color: red;
 }
